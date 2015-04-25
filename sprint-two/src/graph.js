@@ -10,10 +10,13 @@ Graph.prototype.addNode = function(node){
     //Create node
     //Must contain property that points to other node ('next')
     
-    var node = {}
-    this.value = node
+  //   var node = {}
+  //   this.value = node
 
-  Graph.children.push(node)
+  // Graph.children.push(node)
+  var newNode = {};
+  newNode = node;
+  Graph.children.push(newNode);
 
 
 };
