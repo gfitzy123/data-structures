@@ -13,11 +13,12 @@ Graph.prototype.addNode = function(node){
   //   var node = {}
   //   this.value = node
 
+
   // Graph.children.push(node)
   var newNode = {};
-  newNode = node;
-  Graph.children.push(newNode);
-
+  newNode = node;  
+  Graph.children.push(neNode);
+ 
 
 };
 
