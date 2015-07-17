@@ -59,7 +59,9 @@ binaryTreePrototype.depthFirstLog = function(cb) {
   
 }
 
+>>>>>>> master
 
 /*
  * Complexity: What is the time complexity of the above functions?
+    0(log(n))
  */
